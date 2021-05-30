@@ -1,0 +1,188 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=width-device, initial-scale=1.0">
+<title>Efectos con CSS e JS</title>
+<link rel="stylesheet" href="1er Proyecto.css">
+<link rel="stylesheet" href="mobile.css">
+<link rel="shortcut icon" href="Img/camera--v1.png">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.min.css" integrity="sha512-BiFZ6oflftBIwm6lYCQtQ5DIRQ6tm02svznor2GYQOfAlT3pnVJ10xCrU3XuXnUrWQ4EG8GKxntXnYEdKY0Ugg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+<script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="index1.js"></script>
+
+</head>
+
+<body>
+
+
+  <header>
+    <div class="header">
+    <a href="1er Proyecto.html"><img id="logo" src="Img/Logo.svg" alt="" width ="50px" height ="50px"></a>
+    <div class="titolo">
+      <h4>people</h4>
+    </div>
+    </div>
+
+
+    <div class="menu-cont">
+
+
+    <ul class="menu">
+      <li><a href="pagina2.html"><i class="fas fa-home uno"></i>Home</a></li>
+      <li><a href="pagina3.html"><i class="fas fa-question due"></i>About</a></li>
+      <li><a href="pagina4.html"><i class="fas fa-phone-volume tre"></i>Contact-us</a></li>
+    </ul>
+
+    </div>
+
+    <div class="search-cont">
+
+           <div class="search-box">
+             <input id="search-text" class="search-text" type="search" placeholder="Type here to search" >
+             <a  class="search-btn" href="#" >
+                <i id="icon_search" class="fas fa-search" ></i>
+             </a>
+             <div class="triangolo">
+
+             </div>
+             <a  class="cancel-btn1" href="#" onclick="myCancel()">
+                <i id="icon_cancel" class="fas fa-backspace" ></i>
+             </a>
+           </div>
+
+    </div>
+
+    <div class="search-b">
+      <a  class="search-btn1" href="#" >
+         <i id="icon_search1" class="fas fa-search" ></i>
+      </a>
+    </div>
+
+
+  </header>
+
+
+  <div id="hamburger" class="hamburger">
+    <a href="javascript:void(0);" class="icon">
+     <i class="fa fa-bars"></i>
+   </a>
+  </div>
+
+
+<div class="title_gallery items">
+  <h1>our awesome gallery</h1>
+</div>
+
+
+
+<div class="main-carousel items" data-flickity='{ "autoPlay": 2000 }'>
+
+  <div class="carousel-cell">
+    <img src="Img/people1.jpg" alt="" width="100%" height="100%">
+  </div>
+  <div class="carousel-cell">
+    <img src="Img/people4.jpg" alt="" width="100%" height="100%">
+  </div>
+  <div class="carousel-cell">
+    <img src="Img/people2.jpg" alt="" width="100%" height="100%">
+  </div>
+  <div class="carousel-cell">
+    <img src="Img/people3.jpg" alt="" width="100%" height="100%">
+  </div>
+  <div class="carousel-cell">
+    <img src="Img/people5.jpg" alt="" width="100%" height="100%">
+  </div>
+  <div class="carousel-cell">
+    <img src="Img/people8.jpg" alt="" width="100%" height="100%">
+  </div>
+  <div class="carousel-cell">
+    <img src="Img/people6.jpg" alt="" width="100%" height="100%">
+  </div>
+  <div class="carousel-cell">
+    <img src="Img/people7.jpg" alt="" width="100%" height="100%">
+  </div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<button id="btnup"><i class="fas fa-arrow-up"></i>up</button>
+<footer>
+ <div class="sn">
+   <a href="#"><i class="fab fa-facebook-f Fb"></i></a>
+    <a href="#"><i class="fab fa-instagram Inst"></i></a>
+     <a href="#"><i class="fab fa-telegram Tel"></i></a>
+      <a href="#"><i class="fab fa-youtube YouT"></i></a>
+ </div>
+
+ <div class="copyR" align="center">
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.pkgd.min.js" integrity="sha512-cA8gcgtYJ+JYqUe+j2JXl6J3jbamcMQfPe0JOmQGDescd+zqXwwgneDzniOd3k8PcO7EtTW6jA7L4Bhx03SXoA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+
+    //copyright
+
+    document.write('&copy;' );
+    document.write(' 2005 - ');
+    document.write(new Date().getFullYear());
+    document.write(' Fotografia SpA - All Rights Reserved.');
+    document.write('<br/>Last Updated : ');
+    document.write(document.lastModified);
+
+//botonup
+
+    const btnUp = document.querySelector("#btnup");
+
+    btnUp.addEventListener("click" ,function(){
+    //window.scrollTo(0, 0);
+
+      window.scrollTo({
+       top:0,
+       left:0,
+       behavior: "smooth"
+
+
+
+
+      })
+
+
+
+    });
+
+ScrollReveal().reveal('.items', { delay: 375, reset: true ,  distance: '80px' , easing: 'cubic-bezier(.215 , .61, .355, 1)', interval: 600});
+
+
+  </script>
+</div>
+
+</footer>
+
+
+
+
+
+</body>
+</html>

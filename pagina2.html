@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=width-device, initial-scale=1.0">
+<title>Efectos con CSS e JS</title>
+<link rel="stylesheet" href="1er Proyecto.css">
+<link rel="stylesheet" href="mobile.css">
+<link rel="shortcut icon" href="Img/camera--v1.png">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+<script src="index.js"></script>
+<script src="index1.js"></script>
+</head>
+
+<body>
+
+
+
+
+<header>
+  <div class="header">
+  <a href="1er Proyecto.html"><img id="logo" src="Img/Logo.svg" alt="" width ="50px" height ="50px"></a>
+  <div class="titolo">
+    <h4>people</h4>
+  </div>
+  </div>
+
+
+  <div class="menu-cont">
+
+
+  <ul class="menu">
+    <li><a href="pagina2.html"><i class="fas fa-home uno"></i>Home</a></li>
+    <li><a href="pagina3.html"><i class="fas fa-question due"></i>About</a></li>
+    <li><a href="pagina4.html"><i class="fas fa-phone-volume tre"></i>Contact-us</a></li>
+  </ul>
+
+  </div>
+
+  <div class="search-cont">
+
+         <div class="search-box">
+           <input id="search-text" class="search-text" type="search" placeholder="Type here to search" >
+           <a  class="search-btn" href="#" >
+              <i id="icon_search" class="fas fa-search" ></i>
+           </a>
+           <div class="triangolo">
+
+           </div>
+           <a  class="cancel-btn1" href="#" onclick="myCancel()">
+              <i id="icon_cancel" class="fas fa-backspace" ></i>
+           </a>
+         </div>
+
+  </div>
+
+  <div class="search-b">
+    <a  class="search-btn1" href="#" >
+       <i id="icon_search1" class="fas fa-search" ></i>
+    </a>
+  </div>
+
+
+</header>
+
+
+<div id="hamburger" class="hamburger">
+  <a href="javascript:void(0);" class="icon">
+   <i class="fa fa-bars"></i>
+ </a>
+</div>
+
+
+<div class="foto1 items">
+  <img id="foto1" src="Img/pexels 1.jpg" alt="">
+  <h3 id="h3">web site demo</h3>
+</div>
+
+<div class="foto2 items" >
+  <div class="fotos2 items">
+  <img id="ft2"src="Img/pexels 2.jpg" alt="">
+  <h1 id="h1ss">Walking</h1>
+  <img id="foto2"src="Img/pexels 3.jpg" alt="">
+  </div>
+
+<div class="paragra1 items">
+   <p id="p1">master of photography</p>
+  <p id="p2">immagini del prestigioso fotografo Michel awsome, che ci mostrano le persone da un nostro punto di vista.</p>
+
+
+</div>
+
+</div>
+
+<div class="foto3 items">
+
+<main class="fotoss ">
+
+
+    <h1 class="items">"la fotografia è l'arte di mostrare di quanti istanti effimiri sia fatta la vita."</h1>
+    <div class="h5">
+       <h5 ><i>"Marcel Proust"</i></h5>
+         </div>
+</main>
+
+</div>
+
+<button id="btnup"><i class="fas fa-arrow-up"></i>up</button>
+<footer>
+ <div class="sn">
+   <a href="#"><i class="fab fa-facebook-f Fb"></i></a>
+    <a href="#"><i class="fab fa-instagram Inst"></i></a>
+     <a href="#"><i class="fab fa-telegram Tel"></i></a>
+      <a href="#"><i class="fab fa-youtube YouT"></i></a>
+ </div>
+ <div class="copyR" align="center">
+
+  <script>
+
+
+
+  //copyright
+    document.write('&copy;' );
+    document.write(' 2005 - ');
+    document.write(new Date().getFullYear());
+    document.write(' Fotografia SpA - All Rights Reserved.');
+    document.write('<br/>Last Updated : ');
+    document.write(document.lastModified);
+
+
+
+    //botonup
+
+        const btnUp = document.querySelector("#btnup");
+
+        btnUp.addEventListener("click" ,function(){
+      //  window.scrollTo(0, 0);
+
+      window.scrollTo({
+       top:0,
+       left:0,
+       behavior: "smooth"
+
+           });
+
+        });
+
+ScrollReveal().reveal('.items', { delay: 375, reset: true ,  distance: '80px' , easing: 'cubic-bezier(.215 , .61, .355, 1)', interval: 600});
+
+  </script>
+</div>
+</footer>
+</body>
+</html>
