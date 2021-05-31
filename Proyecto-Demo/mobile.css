@@ -1,19 +1,20 @@
 *{margin:0;padding:0;}
 
 /* ! log-in page */
-@media (max-width: 768px) {
+@media (max-width: 812px) {
   .LogoIn{margin: 20px auto;width: 100%;}
+
   .login{margin:130px auto;}
-  .login h1{font-size: 45px;}
-  .corpo{width: 100%;margin: 300px auto;}
+  .login h1{font-size: 40px;z-index: 6;}
+  .corpo{width: 100%;margin:0 auto;}
   .corpo, span{font-size:14px;}
   .border1{width: 60%;}
   .copyright1{font-size: 12px;}
   #body{background-size:cover;height: 100vh;}
   #p2{margin-top: 30px;}
 
-
 }
+
 
 /* ! mobile confg home page */
 
