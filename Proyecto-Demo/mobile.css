@@ -106,11 +106,16 @@
 .pulsante1{width: 100%;}
 .pp{padding: 0;margin: auto;}
 #btnup{right: 20px;}
-}
+
 .login input[type="submit"]{
 
   background: #2ecc71;
   transition: none;
+  width: 100%;
+}
+
+
+
 }
 
 
