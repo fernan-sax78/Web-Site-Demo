@@ -235,7 +235,7 @@ border-color: #2ecc71;
 	display: block;
 	margin: 20px auto;
 	text-align: center;
-  border: 3px solid #2ecc71;
+  border: 3px solid #3498db;
   cursor: pointer;
 	padding: ;
 	border-radius: 24px;
@@ -244,7 +244,7 @@ border-color: #2ecc71;
 	transition: .30s;
 }
 .login input[type="submit"]:hover{
-	background: #2ecc71;
+	background: #3498db;
 	transition: .25s;
 }
 

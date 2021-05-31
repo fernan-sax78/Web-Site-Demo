@@ -109,11 +109,11 @@
 
 .login input[type="submit"]{
 
-  background: #2ecc71;
+  background: #3498db;
   transition: none;
 }
 .contact-form-btn{
-  background: #2ecc71;
+  background: #3498db;
   transition: none;
   width: 25%;
 }
