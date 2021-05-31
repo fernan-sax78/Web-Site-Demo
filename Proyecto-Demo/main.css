@@ -228,13 +228,16 @@ border-color: #2ecc71;
 }
 .login h1{color: white;}
 .login input[type="submit"]{
+	width: 100px;
+	height: 50px;
+	font-size:16px ;
 	background: none;
 	display: block;
 	margin: 20px auto;
 	text-align: center;
   border: 3px solid #2ecc71;
   cursor: pointer;
-	padding: 14px 40px;
+	padding: ;
 	border-radius: 24px;
 	color: #fff;
 	text-transform: uppercase;

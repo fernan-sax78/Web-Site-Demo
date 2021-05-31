@@ -111,9 +111,12 @@
 
   background: #2ecc71;
   transition: none;
-  width: 100%;
 }
-
+.contact-form-btn{
+  background: #2ecc71;
+  transition: none;
+  width: 25%;
+}
 
 
 }
