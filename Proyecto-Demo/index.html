@@ -51,7 +51,11 @@
 
   <input type="submit" name="" value="login">
 
-      <span id="socialnet"class="subscribe">or sign in whith social plattform</span>
+      <div class="writeMove">
+      <span id="socialNet" class="subscribe"></span>
+      </div>
+
+
       <div class="snI">
         <a href="#"><i class="fab fa-facebook-f Fb"></i></a>
          <a href="#"><i class="fab fa-instagram Inst" ></i></a>
@@ -98,7 +102,20 @@
 
 
   <script>
+  var text = "or sign in whith social plattform...!";
+  var output = "";
+  var i = 0;
+  var speed = 150;
 
+  function scrivi() {
+    output += text.charAt(i);
+    i++;
+    document.getElementById('socialNet').innerHTML = output;
+    if (i >= text.length) {
+      clearInterval(s);
+    }
+  }
+  s = setInterval("scrivi()",speed);
 
 
   //copyright

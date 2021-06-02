@@ -22,7 +22,7 @@ ul{list-style-type: none;}
 	border-radius: 24px;
 	box-shadow: 15px 14px 20px -4px #646B70;
 }
-
+.writeMove{margin: 10px auto;width: 400px;height: 20px;text-align: center;}
 
 #logo1{width: 80px; height: 80px;}
 .LogoIn  h4{font-size: 40px;margin-top: 5px;}
