@@ -85,10 +85,22 @@
   <div class="border"></div>
 
 <form class="contact-form" action="index.html" method="get" >
-<input class="contact-form-text"  type="text" placeholder="Write your Name" required>
-<input class="contact-form-text"  type="email" placeholder="Write your Email" required>
-<input class="contact-form-text"  type="tel" name="phone" placeholder="enter your number" required>
-<textarea class="contact-form-text" placeholder="Your Message" required></textarea>
+<div class="text1">
+  <input  id="c1" class="contact-form-text"  type="text" placeholder="Write your Name" required><i class="fa fa-times cross1" aria-hidden="true" onclick="myEraseu()" ></i>
+</div>
+
+<div class="text2">
+  <input id="c2" class="contact-form-text"  type="email" placeholder="Write your Email" required><i class="fa fa-times cross2" aria-hidden="true" onclick="myErased()"></i>
+</div>
+
+<div class="text3">
+<input id="c3" class="contact-form-text"  type="tel" name="phone" placeholder="enter your number" required><i class="fa fa-times cross3" aria-hidden="true" onclick="myEraset()"></i>
+</div>
+
+<div class="text4">
+<textarea id="c4" class="contact-form-text" placeholder="Your Message" required></textarea><i class="fa fa-times cross4" aria-hidden="true" onclick="myErasec()"></i>
+</div>
+
 <input type="submit" class="contact-form-btn" value="Send">
 
 

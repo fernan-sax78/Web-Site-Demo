@@ -119,7 +119,6 @@
 }
 
 
-}
 
 
 @media (max-width: 768px) {
@@ -131,7 +130,7 @@
 .title_gallery h1{font-size: 30px;}
 
 .carousel-cell{width: 100%;}
-.main-carousel{}
+
 }
 
 

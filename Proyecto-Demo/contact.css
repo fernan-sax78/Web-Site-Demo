@@ -62,10 +62,16 @@ textarea.contact-form-text{resize: none;height: 120px;}
 background: #252850;
 
 }
+/* ! btn cancel text */
+.text1,
+.text2,
+.text3,
+.text4{position: relative;}
 
-
-
-
+.cross1,
+.cross2,
+.cross3,
+.cross4{color: silver;cursor: pointer;position: absolute;right: 10px;top: 10px;width: 30px;text-align: center;padding: 5px;}
 
 
 
