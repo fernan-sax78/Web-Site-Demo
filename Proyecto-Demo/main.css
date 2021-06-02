@@ -26,7 +26,8 @@ ul{list-style-type: none;}
 
 .writeMove{margin: 10px auto;width: 400px;height: 20px;text-align: center;}
 
-#logo1{width: 80px; height: 80px;}
+#logo1{width: 80px; height: 80px;margin-top: -12px;}
+#logo{margin-top: -8px;}
 .LogoIn  h4{font-size: 40px;margin-top: 5px;color: #e9a455;text-shadow: rgba(171, 169, 169, 0.97) 8px 3px 5px;}
 .menu{width: 100%;}
 .menu li{display: inline-block; text-align: center;}
@@ -188,6 +189,7 @@ header{display: flex;border-radius: 10px;
 
 .header{display: flex; margin-left: 20px;}
 .titolo{padding: 5px;}
+.titolo h4{color: #e9a455;}
 .header ,.menu-cont,.search-cont{width: 100%;margin-top: 20px;}
 .uno, .due, .tre,.four{margin-right: 5px; margin-left: 10px;}
 
